@@ -1,5 +1,6 @@
 import { Container, Row, Col } from 'react-bootstrap';
 import { useState } from 'react';
+import '../style/Converter.css';
 
 export default function Converter()
 {
@@ -48,12 +49,16 @@ export default function Converter()
                 </Col>
             </Row>
 
+            <div className="separator"></div>
+
             <Row className="text-center">
                 <Col>
                     <h5>Binary Equivalent </h5>
                     <h5>{binaryEquivalent}</h5>
                 </Col>
             </Row>
+
+            <div className="separator"></div>
         </Container>
     );
 }
