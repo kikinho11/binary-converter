@@ -1,0 +1,36 @@
+.sidebarContainer
+{
+    background-color: black;
+    text-align: center;
+    left: 0;
+    position: fixed;
+    width: 250px;
+    height: 100%;
+}
+
+.sidebarTitle h4
+{
+    font-size: 24px;
+    color:white;
+    padding: 10px;
+}
+
+.sidebarItem
+{
+    margin-top: 20px;
+}
+
+.sidebarItem a
+{
+    font-size: 20px;
+    color: white;
+    padding: 10px;
+    transition: 0.3s ease-in-out;
+}
+
+.sidebarItem a:hover
+{
+    text-decoration: none;
+    color:aqua;
+    transition: 0.3s ease-in-out;
+}
